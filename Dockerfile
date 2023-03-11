@@ -1,4 +1,4 @@
-FROM hshar/webapp
+FROM balajik/webapp
 
 RUN rm /var/www/html/index.html
 
