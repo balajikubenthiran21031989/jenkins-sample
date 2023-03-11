@@ -1,3 +1,3 @@
-FROM hshar/webapp
+FROM kkbalajius/webapp
 
 ADD . /var/www/html
