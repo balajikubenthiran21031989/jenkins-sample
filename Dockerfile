@@ -1,7 +1,3 @@
-FROM httpd
+FROM hshar/webapp
 
-WORKDIR balajik/webapp
-
-RUN rm /var/www/html/index.html
-
-COPY ./index.html /var/www/html
+ADD . /var/www/html
