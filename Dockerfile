@@ -1,5 +1,7 @@
-FROM balajik/webapp
+FROM httpd:2.4 
 
-RUN rm /var/www/html/index.html
+WORKDIR balajik/webapp
+
+#RUN rm /var/www/html/index.html
 
 ADD ./index.html /var/www/html
